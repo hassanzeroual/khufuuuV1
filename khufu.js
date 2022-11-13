@@ -174,9 +174,9 @@ khufuLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeU
 	            const xmembers = metadata.participants.length
                 let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: khufuWlcm, surface: 200, message: `${metadata.subject}`, orderTitle: 'khufu', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                 khufubody = `┌─❖
-│「 الاخ ده دخل روم🤓」
+│「  مرحبا بيك ازين」
 └┬❖ 「 @${khufuName.split("@")[0]}  」
-   │✑  نورت 😂❤
+   │✑  فين اعشيري
    └───────────────┈ ⳹`
       //if you copy the code value,
    //dont forget to put my name(khufu) as credit
@@ -213,7 +213,7 @@ khufuBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                     const khufumembers = metadata.participants.length
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: khufubuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'khufu', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                     khufubody = `┌─❖
-│「 البتاع ده طلع 😜」
+│「 خرج تقود」
 └┬❖ 「 @${khufuName.split("@")[0]}  」
    │✑  خرج من 👇
    │✑ ${metadata.subject}
@@ -222,7 +222,7 @@ khufuBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
    //dont forget to put my name(khufu) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
-{buttonId: `wkwkwk`, buttonText: {displayText: 'يلا ف دهيا😜'}, type: 1}
+{buttonId: `wkwkwk`, buttonText: {displayText: ' TM'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./KhufuMedia/theme/cheems.xlsx'),
