@@ -2811,9 +2811,9 @@ if (!m.isGroup) return replay(mess.group)
 if (!isBotAdmins) return replay(mess.botAdmin)
 if (!isAdmins && !isCreator) return replay(mess.admin)
 if (args[0] === "on") {
-if (AntiLinkTwitter) return replay('متفعله اصلا')
+if (AntiLinkTwitter) return replay('خداما اصلا')
 ntilinkall.push(from)
-replay('اتفعلت!')
+replay('خدمات!')
 var groupe = await khufuBotInc.groupMetadata(from)
 var members = groupe['participants']
 var mems = []
@@ -2822,10 +2822,10 @@ mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
 khufuBotInc.sendMessage(from, {text: `\`\`\`「 ⚠️تحذير⚠️ 」\`\`\`\n\nاي حد هيرمي لينك غير الادمن هياخد بان`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
-if (!AntiLinkAll) return replay('مقفوله اصلا')
+if (!AntiLinkAll) return replay('مخداماش اصلا')
 let off = ntilinkall.indexOf(from)
 ntilinkall.splice(off, 1)
-replay('اتقفلت')
+replay('مخداماش')
 } else {
   let buttonsntilink = [
   { buttonId: `${command} on`, buttonText: { displayText: 'فعل' }, type: 1 },
@@ -3018,7 +3018,7 @@ await khufuBotInc.updateProfilePicture(botNumber, { url: media }).catch((err) =>
 replay(mess.success)
 }
 break
-            case 'linkgroup': case 'linkgc': case 'لينك': case 'grouplink': {
+            case 'linkgroup': case 'linkgc': case 'ليان': case 'grouplink': {
             	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 		    if (!isAdmins) return replay(`${mess.admin}`)
@@ -3042,7 +3042,7 @@ if (isBanChat) return reply(mess.banChat)
             }
             break
 case 'grupsetting':
-            case 'groupsetting': case 'اعداداتجروب':{
+            case 'groupsetting': case 'اعدادات':{
             	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
                     let sections = []
@@ -3104,27 +3104,27 @@ for (let i of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'YouTube 🍓',
+displayText: 'FAFEBOOK',
 url: `${global.websitex}`
 }
 }, {
 urlButton: {
-displayText: 'روم البوت❤',
+displayText: 'BOT',
 url: `${global.botscript}`
 }
 }, {
 quickReplyButton: {
-displayText: 'سرعه البوت ❤',
+displayText: ' SPEED BOT',
 id: 'ping'
 }
 }, {
 quickReplyButton: {
-displayText: 'اوامر',
+displayText: 'الاوامر',
 id: 'menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'المالك❤',
+displayText: 'الادمن',
 id: 'owner'
 }
 }]
@@ -3145,27 +3145,27 @@ for (let yoi of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'YouTube 🍓',
+displayText: 'FACEBOOM 🍓',
 url: `${global.websitex}`
 }
 }, {
 urlButton: {
-displayText: 'روم البوت 😜',
+displayText: 'BOT',
 url: `${global.botscript}`
 }
 }, {
 quickReplyButton: {
-displayText: 'سرعه البوت 🌚',
+displayText: 'SPEED BOT',
 id: 'ping'
 }
 }, {
 quickReplyButton: {
-displayText: 'اوامر😜',
+displayText: 'الاوامر',
 id: 'menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'مالك😏',
+displayText: 'الادمن',
 id: 'owner'
 }
 }]
